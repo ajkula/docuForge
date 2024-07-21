@@ -126,4 +126,7 @@ This architecture ensures a clear separation of concerns, with the frontend hand
 ![DocuForge Main screen Wireframe](repo/docuforge-main-wireframe.svg)
 
 **Dataset to charts link settings**
-![DocuForge Optimized Chart Creation Interface](repo/docuforge-optimized-chart-creation-wireframe.svg)
+![DocuForge Chart Creation Interface](repo/docuforge-chart-creation-wireframe.svg)
+
+**Document export page**
+![DocuForge Export Wireframe](repo/docuforge-export-wireframe.svg)
