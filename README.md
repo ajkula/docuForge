@@ -2,6 +2,7 @@
 A tool to create/edit/export documents with image and charts integration of your own data from CSV/excel/JSON...
 
 ## User flow
+```mermaid
 graph TD
     A[Lancement de DocuForge] --> B[Écran principal]
     B --> C{Choix de l'action}
@@ -28,3 +29,4 @@ graph TD
     O -->|Fermer| B
     P --> G
     Q --> G
+```
