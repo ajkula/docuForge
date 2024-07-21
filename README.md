@@ -64,7 +64,6 @@ This intuitive process ensures users can easily create data visualizations that 
 ## Component Diagram
 ```mermaid
 graph TD
-graph TD
     subgraph "Frontend (React + TypeScript)"
         A[UI Components]
         B[State Management]
