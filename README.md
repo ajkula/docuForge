@@ -82,7 +82,7 @@ graph TD
     end
 
     subgraph "Data Storage"
-        I[SQLite/BoltDB]
+        I[SQLite]
     end
 
     A <--> B
