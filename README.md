@@ -110,7 +110,7 @@ graph TD
   - Data Processing: Processes data for charts and document structure
   - HTML Export: Generates HTML output for documents
 4. Data Storage
-  - SQLite/BoltDB: Stores document data and application state
+  - SQLite: Stores document data and application state
 
 **Key Interactions**
 - The frontend communicates with the backend through the Wails v2 API bindings
@@ -119,3 +119,12 @@ graph TD
 - Document export is managed by the backend with input from the frontend
 
 This architecture ensures a clear separation of concerns, with the frontend handling user interactions and presentation, while the backend manages data processing, storage, and core business logic.
+
+
+## DocuForge UI Wireframe
+
+**Main screen**
+![DocuForge Main screen Wireframe](repo/docuforge-main-wireframe.svg)
+
+**Dataset to charts link settings**
+![DocuForge Optimized Chart Creation Interface](repo/docuforge-optimized-chart-creation-wireframe.svg)

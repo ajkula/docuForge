@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect x="0" y="0" width="800" height="600" fill="#f0f0f0"/>
+  
+  <!-- Top Bar -->
+  <rect x="0" y="0" width="800" height="50" fill="#d0d0d0"/>
+  <text x="20" y="30" font-family="Arial" font-size="20" fill="black">DocuForge</text>
+  <!-- Export Button -->
+  <rect x="700" y="10" width="80" height="30" fill="#a0a0a0"/>
+  <text x="720" y="30" font-family="Arial" font-size="14" fill="black">Export</text>
+  
+  <!-- Left Sidebar -->
+  <rect x="0" y="50" width="200" height="550" fill="#e0e0e0"/>
+  <text x="10" y="80" font-family="Arial" font-size="16" fill="black">Document Structure</text>
+  <text x="20" y="110" font-family="Arial" font-size="14" fill="black">• Chapter 1</text>
+  <text x="40" y="135" font-family="Arial" font-size="14" fill="black">◦ Subchapter 1.1</text>
+  <text x="40" y="160" font-family="Arial" font-size="14" fill="black">◦ Subchapter 1.2</text>
+  <text x="20" y="185" font-family="Arial" font-size="14" fill="black">• Chapter 2</text>
+  <rect x="10" y="500" width="180" height="30" fill="#a0a0a0"/>
+  <text x="45" y="520" font-family="Arial" font-size="14" fill="black">Add Chapter</text>
+  <rect x="10" y="540" width="180" height="30" fill="#a0a0a0"/>
+  <text x="35" y="560" font-family="Arial" font-size="14" fill="black">Add Subchapter</text>
+  
+  <!-- Main Content Area -->
+  <rect x="220" y="70" width="560" height="510" fill="white"/>
+  <text x="240" y="100" font-family="Arial" font-size="24" fill="black">Chapter 1: Introduction</text>
+  
+  <!-- Content Rows -->
+  <rect x="240" y="120" width="520" height="100" fill="#f0f0f0"/>
+  <text x="250" y="140" font-family="Arial" font-size="14" fill="#505050">Text content...</text>
+  
+  <rect x="240" y="230" width="250" height="150" fill="#e0e0e0"/>
+  <text x="350" y="305" font-family="Arial" font-size="14" fill="#505050">Chart</text>
+  
+  <rect x="510" y="230" width="250" height="150" fill="#e0e0e0"/>
+  <text x="620" y="305" font-family="Arial" font-size="14" fill="#505050">Image</text>
+  
+  <rect x="240" y="390" width="520" height="100" fill="#f0f0f0"/>
+  <text x="250" y="410" font-family="Arial" font-size="14" fill="#505050">More text content...</text>
+  
+  <!-- Add Content Buttons -->
+  <rect x="240" y="500" width="170" height="30" fill="#a0a0a0"/>
+  <text x="265" y="520" font-family="Arial" font-size="14" fill="black">Add Single Element</text>
+  
+  <rect x="420" y="500" width="170" height="30" fill="#a0a0a0"/>
+  <text x="445" y="520" font-family="Arial" font-size="14" fill="black">Add Two Elements</text>
+  
+  <rect x="600" y="500" width="160" height="30" fill="#a0a0a0"/>
+  <text x="630" y="520" font-family="Arial" font-size="14" fill="black">Close Section</text>
+</svg>
