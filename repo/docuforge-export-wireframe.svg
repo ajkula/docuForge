@@ -10,36 +10,37 @@
   
   <!-- Export Format -->
   <text x="40" y="100" font-family="Arial" font-size="16" fill="#a9b7c6">1. Export Format</text>
-  <rect x="40" y="110" width="320" height="30" fill="#3c3f41"/>
-  <text x="50" y="130" font-family="Arial" font-size="14" fill="#a9b7c6">HTML</text>
-  <text x="340" y="130" font-family="Arial" font-size="14" fill="#a9b7c6">▼</text>
+  <text x="40" y="130" font-family="Arial" font-size="14" fill="#a9b7c6">Format:</text>
+  <rect x="40" y="140" width="320" height="30" fill="#3c3f41"/>
+  <text x="50" y="160" font-family="Arial" font-size="14" fill="#a9b7c6">HTML</text>
+  <text x="340" y="160" font-family="Arial" font-size="14" fill="#a9b7c6">▼</text>
   
-  <!-- Layout Options -->
-  <text x="40" y="170" font-family="Arial" font-size="16" fill="#a9b7c6">2. Layout Options</text>
-  <rect x="40" y="180" width="150" height="30" fill="#3c3f41" stroke="#5e6060"/>
-  <text x="50" y="200" font-family="Arial" font-size="14" fill="#a9b7c6">Page Width</text>
-  <rect x="200" y="180" width="160" height="30" fill="#3c3f41" stroke="#5e6060"/>
-  <text x="210" y="200" font-family="Arial" font-size="14" fill="#a9b7c6">Font Size</text>
+  <!-- Document Settings -->
+  <text x="40" y="200" font-family="Arial" font-size="16" fill="#a9b7c6">2. Document Settings</text>
+  <rect x="40" y="220" width="320" height="30" fill="#3c3f41"/>
+  <text x="50" y="240" font-family="Arial" font-size="14" fill="#a9b7c6">Include Table of Contents</text>
+  <rect x="320" y="225" width="20" height="20" fill="#3c3f41" stroke="#5e6060"/>
+  
+  <rect x="40" y="260" width="320" height="30" fill="#3c3f41"/>
+  <text x="50" y="280" font-family="Arial" font-size="14" fill="#a9b7c6">Include Page Numbers</text>
+  <rect x="320" y="265" width="20" height="20" fill="#3c3f41" stroke="#5e6060"/>
+  
+  <text x="40" y="310" font-family="Arial" font-size="14" fill="#a9b7c6">Font Size:</text>
+  <rect x="40" y="320" width="320" height="30" fill="#3c3f41"/>
+  <text x="50" y="340" font-family="Arial" font-size="14" fill="#a9b7c6">Medium</text>
+  <text x="340" y="340" font-family="Arial" font-size="14" fill="#a9b7c6">▼</text>
   
   <!-- Style Options -->
-  <text x="40" y="240" font-family="Arial" font-size="16" fill="#a9b7c6">3. Style Options</text>
-  <rect x="40" y="250" width="320" height="30" fill="#3c3f41" stroke="#5e6060"/>
-  <text x="50" y="270" font-family="Arial" font-size="14" fill="#a9b7c6">Color Scheme</text>
-  <text x="340" y="270" font-family="Arial" font-size="14" fill="#a9b7c6">▼</text>
-  
-  <!-- Content Selection -->
-  <text x="40" y="310" font-family="Arial" font-size="16" fill="#a9b7c6">4. Content Selection</text>
-  <rect x="40" y="320" width="20" height="20" fill="#3c3f41" stroke="#5e6060"/>
-  <text x="70" y="335" font-family="Arial" font-size="14" fill="#a9b7c6">Include Table of Contents</text>
-  <rect x="40" y="350" width="20" height="20" fill="#3c3f41" stroke="#5e6060"/>
-  <text x="70" y="365" font-family="Arial" font-size="14" fill="#a9b7c6">Include Page Numbers</text>
+  <text x="40" y="380" font-family="Arial" font-size="16" fill="#a9b7c6">3. Style Options</text>
+  <text x="40" y="410" font-family="Arial" font-size="14" fill="#a9b7c6">Color Scheme:</text>
+  <rect x="40" y="420" width="320" height="30" fill="#3c3f41"/>
+  <text x="50" y="440" font-family="Arial" font-size="14" fill="#a9b7c6">Dark</text>
+  <text x="340" y="440" font-family="Arial" font-size="14" fill="#a9b7c6">▼</text>
   
   <!-- File Options -->
-  <text x="40" y="410" font-family="Arial" font-size="16" fill="#a9b7c6">5. File Options</text>
-  <text x="40" y="440" font-family="Arial" font-size="14" fill="#a9b7c6">File Name:</text>
-  <rect x="120" y="425" width="240" height="25" fill="#3c3f41" stroke="#5e6060"/>
-  <text x="40" y="480" font-family="Arial" font-size="14" fill="#a9b7c6">Save Location:</text>
-  <rect x="140" y="465" width="220" height="25" fill="#3c3f41" stroke="#5e6060"/>
+  <text x="40" y="480" font-family="Arial" font-size="16" fill="#a9b7c6">4. File Options</text>
+  <text x="40" y="510" font-family="Arial" font-size="14" fill="#a9b7c6">File Name:</text>
+  <rect x="40" y="520" width="320" height="30" fill="#3c3f41"/>
   
   <!-- Right Panel (Preview) -->
   <rect x="400" y="70" width="380" height="450" fill="#323232"/>
