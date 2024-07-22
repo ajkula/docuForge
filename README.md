@@ -61,6 +61,28 @@ graph TD
 
 This intuitive process ensures users can easily create data visualizations that adhere to Edward Tufte's principles, enhancing the overall quality of their documents.
 
+## Image Insertion User Flow
+
+```mermaid
+graph TD
+    A[User clicks 'Insert Image' button] --> B{Choose upload method}
+    B -->|Drag and Drop| C[User drags image into upload area]
+    B -->|File Selection| D[User clicks to open file explorer]
+    D --> E[User selects image file]
+    C --> F[Image uploaded]
+    E --> F
+    F --> G[Image preview displayed]
+    G --> H[User adjusts container width]
+    H --> I[User selects image fit option]
+    I --> J[User enters alt text]
+    J --> K{User satisfied?}
+    K -->|No| L[User makes adjustments]
+    L --> H
+    K -->|Yes| M[User clicks 'Insert' button]
+    M --> N[Image inserted into document]
+    N --> O[User returns to main document view]
+```
+
 ## Component Diagram
 ```mermaid
 graph TD
@@ -125,8 +147,11 @@ This architecture ensures a clear separation of concerns, with the frontend hand
 **Main screen**
 ![DocuForge Main screen Wireframe](repo/docuforge-main-wireframe.svg)
 
-**Dataset to charts link settings**
+**Dataset to charts link view**
 ![DocuForge Chart Creation Interface](repo/docuforge-chart-creation-wireframe.svg)
 
-**Document export page**
+**Document export view**
 ![DocuForge Export Wireframe](repo/docuforge-export-wireframe.svg)
+
+**Image insertion view**
+![DocuForge Image Insert Wireframe (Refined)](repo/docuforge-image-insert-wireframe.svg)

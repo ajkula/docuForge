@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect x="0" y="0" width="800" height="500" fill="#2b2b2b"/>
+  
+  <!-- Top Bar -->
+  <rect x="0" y="0" width="800" height="50" fill="#3c3f41"/>
+  <text x="20" y="30" font-family="Arial" font-size="20" fill="#a9b7c6">Insert Image</text>
+  
+  <!-- Main Content Area -->
+  <rect x="20" y="70" width="760" height="410" fill="#323232"/>
+  
+  <!-- Image Upload Area -->
+  <rect x="40" y="90" width="720" height="120" fill="#3c3f41" stroke="#5e6060" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="320" y="160" font-family="Arial" font-size="18" fill="#a9b7c6">Drop image here or click to select file</text>
+  
+  <!-- Left Column -->
+  <text x="40" y="240" font-family="Arial" font-size="16" fill="#a9b7c6">Image Options</text>
+  
+  <text x="40" y="270" font-family="Arial" font-size="14" fill="#a9b7c6">Width:</text>
+  <rect x="40" y="280" width="120" height="25" fill="#3c3f41"/>
+  <text x="170" y="297" font-family="Arial" font-size="14" fill="#a9b7c6">% of row width</text>
+  
+  <text x="40" y="320" font-family="Arial" font-size="14" fill="#a9b7c6">Image Fit:</text>
+  <rect x="40" y="330" width="150" height="25" fill="#3c3f41"/>
+  <text x="50" y="347" font-family="Arial" font-size="14" fill="#a9b7c6">Contain</text>
+  <text x="170" y="347" font-family="Arial" font-size="14" fill="#a9b7c6">▼</text>
+  
+  <text x="40" y="370" font-family="Arial" font-size="14" fill="#a9b7c6">Alt Text:</text>
+  <rect x="40" y="380" width="300" height="25" fill="#3c3f41"/>
+  
+  <!-- Right Column (Preview) -->
+  <text x="420" y="240" font-family="Arial" font-size="16" fill="#a9b7c6">Preview</text>
+  <rect x="420" y="260" width="340" height="190" fill="#3c3f41" stroke="#5e6060" stroke-width="2"/>
+  <rect x="470" y="280" width="240" height="150" fill="#4a4a4a"/>
+  <text x="560" y="360" font-family="Arial" font-size="14" fill="#a9b7c6">Image Preview</text>
+  
+  <!-- Buttons -->
+  <rect x="40" y="430" width="120" height="40" fill="#388e3c"/>
+  <text x="70" y="455" font-family="Arial" font-size="16" fill="#ffffff">Insert</text>
+  
+  <rect x="180" y="430" width="120" height="40" fill="#ab4642"/>
+  <text x="210" y="455" font-family="Arial" font-size="16" fill="#ffffff">Cancel</text>
+</svg>
