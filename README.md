@@ -1,7 +1,34 @@
 # docuForge
 A tool to create/edit/export documents with image and charts integration of your own data from CSV/excel/JSON...
 
-## User flow
+## Application home page
+```mermaid
+graph TD
+    A[User opens DocuForge] --> B[Home Page]
+    B --> C{User's choice}
+    C -->|New document| D[Click 'New Document']
+    C -->|Select existing document| E[Click on document in scrollable list]
+    C -->|Search| F[Use search bar]
+    C -->|Import external resource| G[Click 'Import External Resource']
+    D --> H[New Document window]
+    H --> I[Enter document name]
+    I --> J[Choose template or start from scratch]
+    J --> K[Click 'Create']
+    K --> L[Open editing interface]
+    E --> L
+    F --> M[Filter document list]
+    M --> N{Document found?}
+    N -->|Yes| E
+    N -->|No| O[Display 'No results found']
+    G --> P[External Resource Import window]
+    P --> Q[Select resource type]
+    Q --> R[Choose file from file system]
+    R --> S[Confirm import]
+    S --> T[Resource added to DocuForge]
+    L --> U[Main document interface]
+```
+
+## Document edition flow
 ```mermaid
 graph TD
     A[Starting DocuForge] --> B[Main screen]
@@ -144,8 +171,11 @@ This architecture ensures a clear separation of concerns, with the frontend hand
 
 ## DocuForge UI Wireframe
 
-**Main screen**
-![DocuForge Main screen Wireframe](repo/docuforge-main-wireframe.svg)
+**Home screen**
+![DocuForge home screen](repo/docuforge-home-page-wireframe.svg)
+
+**Document screen**
+![DocuForge document screen Wireframe](repo/docuforge-main-wireframe.svg)
 
 **Dataset to charts link view**
 ![DocuForge Chart Creation Interface](repo/docuforge-chart-creation-wireframe.svg)
