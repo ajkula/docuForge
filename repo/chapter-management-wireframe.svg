@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect x="0" y="0" width="800" height="600" fill="#2b2b2b"/>
+  
+  <!-- Top Bar -->
+  <rect x="0" y="0" width="800" height="50" fill="#3c3f41"/>
+  <text x="20" y="30" font-family="Arial" font-size="20" fill="#a9b7c6">DocuForge - Document Structure</text>
+  
+  <!-- Main Content Area -->
+  <rect x="20" y="70" width="760" height="510" fill="#323232"/>
+  
+  <!-- Chapter List -->
+  <text x="40" y="100" font-family="Arial" font-size="18" fill="#a9b7c6">Chapters</text>
+  
+  <!-- Chapter 1 -->
+  <rect x="40" y="120" width="700" height="40" fill="#3c3f41" rx="5"/>
+  <text x="60" y="145" font-family="Arial" font-size="16" fill="#a9b7c6">1. Introduction</text>
+  <text x="680" y="145" font-family="Arial" font-size="20" fill="#a9b7c6">⋮</text>
+  
+  <!-- Subchapter 1.1 -->
+  <rect x="80" y="170" width="660" height="40" fill="#2b2b2b" rx="5"/>
+  <text x="100" y="195" font-family="Arial" font-size="14" fill="#a9b7c6">1.1 Project Overview</text>
+  <text x="680" y="195" font-family="Arial" font-size="20" fill="#a9b7c6">⋮</text>
+  
+  <!-- Chapter 2 -->
+  <rect x="40" y="220" width="700" height="40" fill="#3c3f41" rx="5"/>
+  <text x="60" y="245" font-family="Arial" font-size="16" fill="#a9b7c6">2. Methodology</text>
+  <text x="680" y="245" font-family="Arial" font-size="20" fill="#a9b7c6">⋮</text>
+  
+  <!-- Chapter 3 -->
+  <rect x="40" y="270" width="700" height="40" fill="#3c3f41" rx="5"/>
+  <text x="60" y="295" font-family="Arial" font-size="16" fill="#a9b7c6">3. Results</text>
+  <text x="680" y="295" font-family="Arial" font-size="20" fill="#a9b7c6">⋮</text>
+  
+  <!-- Add Chapter Button -->
+  <rect x="40" y="320" width="700" height="40" fill="#388e3c" rx="5"/>
+  <text x="350" y="345" font-family="Arial" font-size="16" fill="#ffffff">+ Add Chapter</text>
+  
+  <!-- Quick Actions -->
+  <rect x="40" y="380" width="700" height="40" fill="#3c3f41" rx="5"/>
+  <text x="60" y="405" font-family="Arial" font-size="16" fill="#a9b7c6">Quick Actions</text>
+  
+  <rect x="40" y="430" width="220" height="40" fill="#323232" rx="5"/>
+  <text x="70" y="455" font-family="Arial" font-size="14" fill="#a9b7c6">Add Subchapter</text>
+  
+  <rect x="270" y="430" width="220" height="40" fill="#323232" rx="5"/>
+  <text x="310" y="455" font-family="Arial" font-size="14" fill="#a9b7c6">Rename Chapter</text>
+  
+  <rect x="500" y="430" width="240" height="40" fill="#323232" rx="5"/>
+  <text x="530" y="455" font-family="Arial" font-size="14" fill="#a9b7c6">Reorder Chapters</text>
+</svg>

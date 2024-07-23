@@ -58,7 +58,46 @@ graph TD
     Q --> G
 ```
 
-## Chart Insertion and Configuration
+## Chapters management flow
+```mermaid
+graph TD
+    A[User accesses Document Structure] --> B[View Chapter List]
+    B --> C{User Action}
+    
+    C -->|Add Chapter| D[Click '+ Add Chapter']
+    D --> E[Enter Chapter Title]
+    E --> F[Confirm]
+    F --> B
+
+    C -->|Add Subchapter| G[Click 'Add Subchapter']
+    G --> H[Select Parent Chapter]
+    H --> I[Enter Subchapter Title]
+    I --> J[Confirm]
+    J --> B
+
+    C -->|Rename Chapter| K[Click 'Rename Chapter']
+    K --> L[Select Chapter]
+    L --> M[Enter New Title]
+    M --> N[Confirm]
+    N --> B
+
+    C -->|Reorder Chapters| O[Click 'Reorder Chapters']
+    O --> P[Drag and Drop Chapters]
+    P --> Q[Confirm New Order]
+    Q --> B
+
+    C -->|Delete Chapter| R[Click Chapter Menu '⋮']
+    R --> S[Select 'Delete']
+    S --> T[Confirm Deletion]
+    T --> B
+
+    C -->|Edit Chapter Content| U[Click on Chapter]
+    U --> V[Open Chapter Editor]
+
+    B --> W[Return to Main Document]
+```
+
+## Chart insertion and configuration
 ```mermaid
 graph TD
     A[Click 'Insert Chart'] --> B[Select Chart Type]
@@ -88,7 +127,7 @@ graph TD
 
 This intuitive process ensures users can easily create data visualizations that adhere to Edward Tufte's principles, enhancing the overall quality of their documents.
 
-## Image Insertion User Flow
+## Image insertion user flow
 
 ```mermaid
 graph TD
@@ -110,7 +149,7 @@ graph TD
     N --> O[User returns to main document view]
 ```
 
-## Component Diagram
+## Components diagram
 ```mermaid
 graph TD
     subgraph "Frontend (React + TypeScript)"
@@ -145,7 +184,7 @@ graph TD
     E <--> I
     G <--> I
 ```
-**Component Description**
+**Components description**
 1. Frontend (React + TypeScript)
   - UI Components: React components for the user interface
   - State Management: Handles local state with React Hooks and global state with Context API
@@ -160,7 +199,7 @@ graph TD
 4. Data Storage
   - SQLite: Stores document data and application state
 
-**Key Interactions**
+**Key interactions**
 - The frontend communicates with the backend through the Wails v2 API bindings
 - The backend handles all data processing and storage operations
 - Chart rendering in the frontend uses processed data from the backend
@@ -176,6 +215,9 @@ This architecture ensures a clear separation of concerns, with the frontend hand
 
 **Document screen**
 ![DocuForge document screen Wireframe](repo/docuforge-main-wireframe.svg)
+
+**Chapters management**
+![DocuForge Chapters Management Interface](repo/chapter-management-wireframe.svg)
 
 **Dataset to charts link view**
 ![DocuForge Chart Creation Interface](repo/docuforge-chart-creation-wireframe.svg)
